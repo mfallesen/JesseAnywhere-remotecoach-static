@@ -3422,6 +3422,11 @@ html[xmlns] .slider-wrap {
 	height: 100px;
 }
 
+.text-logo {
+	margin: 30px 0 30px 0;
+	font-family: 'Poppins', sans-serif;
+}
+
 .header-size-sm #header-wrap #logo img {
 	height: 60px;
 }
@@ -3848,6 +3853,10 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		padding-right: 0.5rem;
 		margin-right: 0.5rem;
 		border-right: 1px solid #EEE;
+	}
+
+	.menu-container {
+		border: none !important;
 	}
 
 	.transparent-header.full-header .primary-menu .menu-container { border-right-color: rgba(0,0,0,0.1); }
