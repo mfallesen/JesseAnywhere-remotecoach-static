@@ -8,3 +8,10 @@
 	background-color: rgba(0,0,0,0.55)
 }
 
+.dark #header.full-header {
+	border-bottom-color:rgba(0, 0, 0, 0);
+}
+
+.dark #header .transparent-header .full-header #logo {
+	border-color: rgba(0, 0, 0, 0);
+}
