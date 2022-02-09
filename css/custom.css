@@ -1,10 +1,28 @@
-/* ----------------------------------------------------------------
-	Custom CSS
-
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
------------------------------------------------------------------*/
+/* Utility Classes */
 .hero-bg-overlay {
 	background-color: rgba(0,0,0,0.55)
 }
+
+.dark #header.full-header {
+	border-bottom-color:rgba(0, 0, 0, 0);
+}
+
+.dark #header .transparent-header .full-header #logo {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+/* Custom classes for overwriting the defaukt bootstrap btn-success class and border-success outline */
+
+.btn-custom-success {
+	border-color: #68bb1e;
+	background-color:#68bb1e ;
+	margin-bottom: 25px;
+}
+
+.border-custom-success {
+	border-color: #68bb1e !important;
+}
+
+
+
 
