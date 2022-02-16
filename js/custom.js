@@ -34,13 +34,14 @@ function mailSend(dataSent) {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         // mode: "no-cors",
-        body: JSON.stringify ({
-            "sender": "John",
-            "senderEmail": "john@john.com",
-            "subject": "Mail Testing",
-            "planInterest": "Kinda Fit",
-            "message": "This is a test message to see that everything is kosher"
-        })
+        // body: JSON.stringify ({
+        //     "sender": "John",
+        //     "senderEmail": "john@john.com",
+        //     "subject": "Mail Testing",
+        //     "planInterest": "Kinda Fit",
+        //     "message": "This is a test message to see that everything is kosher"
+        // })
+        body: JSON.stringify(mockCall)
     })
     .then(function(response) {
         if (!response) {
