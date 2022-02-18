@@ -24,11 +24,6 @@ console.log(document.getElementById('contactform-name').value);
 
 function mailSend(dataSent) {
 
-    // let formData = new FormData(dataSent)
-
-    console.log(dataSent);
-
-    console.log("Hello there");
     // fetch request to mail API
     fetch(mailApi, {
         method: 'POST',
